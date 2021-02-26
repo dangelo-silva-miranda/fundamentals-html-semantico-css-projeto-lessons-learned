@@ -39,7 +39,7 @@ body {
   vertical-align: top;
 }
 
-.lessons-title {
+.lessons-title , .learning-article-title {
   border-style: dotted;
   color: rgb(59, 102, 100);
   margin: 0;

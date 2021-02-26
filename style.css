@@ -26,6 +26,7 @@ body {
   padding: 3%;
   width: 30%;
   display: inline-block;
+  vertical-align: top;
 }
 
 .lessons-title {
@@ -36,4 +37,12 @@ body {
   text-align: center;
 
   /* background-color: rgb(191, 185, 173); */
+}
+
+#rodape {
+  background-color: rgb(191, 185, 173);
+  margin: 0;
+  border: 0;
+  padding: 0 15px;
+  line-height: 30px;
 }

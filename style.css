@@ -11,3 +11,27 @@ body {
   width: 200px;
   border-radius: 50%;
 }
+
+#licoes_aprendidas {
+  background-color: #e1d8d4;
+  margin: 0;
+  border: 0;
+  padding: 10px 20px 10px 40px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.lessons-card {
+  margin: auto;
+  padding: 3%;
+  width: 50%;
+}
+
+.lessons-title {
+  /* background-color: #BFB9AD; */
+  border-style: dotted;
+  color: #3b6664;
+  margin: 0;
+  padding: 3%;
+  text-align: center;
+}

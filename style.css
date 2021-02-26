@@ -5,6 +5,16 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
+  text-align: center;
+  color: rgb(59, 102, 100);
+}
+
+#my_photo {
+  margin-top: 150px;
+  border: 0;
+  padding: 0;
+  text-align: center;
 }
 
 #minha_foto {
@@ -45,4 +55,19 @@ body {
   border: 0;
   padding: 0 15px;
   line-height: 30px;
+}
+
+#nav-links li {
+  list-style: none;
+  display: inline-block;
+}
+
+#nav-links li a {
+  background-color: rgb(191, 185, 173);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 30%;
+  font-weight: 900;
+  font-size: medium;
+  color: rgb(0, 0, 0);
 }

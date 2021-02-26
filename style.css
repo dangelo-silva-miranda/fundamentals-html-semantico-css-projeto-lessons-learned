@@ -12,7 +12,7 @@ body {
   border-radius: 50%;
 }
 
-#licoes_aprendidas {
+#licoes_aprendidas , #licoes_a_aprender {
   background-color: rgb(225, 216, 212);
   margin: 0;
   border: 0;
@@ -22,9 +22,10 @@ body {
 }
 
 .lessons-card {
-  margin: auto;
+  margin: 0 6%;
   padding: 3%;
-  width: 50%;
+  width: 30%;
+  display: inline-block;
 }
 
 .lessons-title {

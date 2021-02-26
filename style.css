@@ -28,12 +28,11 @@ body {
 }
 
 .lessons-title {
-  /*
-  background-color: rgb(191, 185, 173);
-  */
   border-style: dotted;
   color: rgb(59, 102, 100);
   margin: 0;
   padding: 3%;
   text-align: center;
+
+  /* background-color: rgb(191, 185, 173); */
 }

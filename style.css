@@ -32,7 +32,7 @@ body {
   text-align: justify;
 }
 
-.lessons-card , .lado-esquerdo {
+.lessons-card , .lado-esquerdo , .lado-direito {
   margin: 0 6%;
   padding: 3%;
   width: 30%;
@@ -73,8 +73,45 @@ body {
   color: black;
 }
 
-.lado-esquerdo {
-  margin-left: 10%;
+main {
+  margin: auto;
+  border: 0;
+}
+
+.lado-esquerdo , .lado-direito {
   line-height: 30px;
   text-align: justify;
+  border: 0;
+}
+
+.lado-esquerdo {
+  margin-left: 6%;
+  margin-right: 3%;
+}
+
+.lado-direito {
+  margin-left: 3%;
+  margin-right: 6%;
+  padding: 0;
+}
+
+.lado-direito p , #learning-right-aside {
+  display: inline-block;
+}
+
+.lado-direito p {
+  width: 59%;
+  padding: 0 3% 0 0;
+}
+
+#learning-right-aside {
+  background-color: rgb(191, 185, 173);
+  margin: 0;
+  padding: 0 3%;
+  width: 30.9%;
+  vertical-align: top;
+}
+
+#learning-right-aside p{
+  width: auto;
 }

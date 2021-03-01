@@ -31,7 +31,7 @@ body {
   text-align: justify;
 }
 
-.lessons-card {
+.lessons-card , .lado-esquerdo {
   margin: 0 6%;
   padding: 3%;
   width: 30%;
@@ -70,4 +70,10 @@ body {
   font-weight: 900;
   font-size: medium;
   color: black;
+}
+
+.lado-esquerdo {
+  margin-left: 10%;
+  line-height: 30px;
+  text-align: justify;
 }

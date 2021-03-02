@@ -74,25 +74,34 @@ body {
 }
 
 main {
-  margin: auto;
+  width: 100%;
+  margin: 0;
   border: 0;
+  padding: 0;
 }
 
 .lado-esquerdo , .lado-direito {
   line-height: 30px;
   text-align: justify;
   border: 0;
+  min-width: 25.1em;
+  padding: 0;
 }
 
 .lado-esquerdo {
-  margin-left: 6%;
-  margin-right: 3%;
+  margin-left: 13%;
+  margin-right: 6.5%;
+  /* /* margin-left: 11em;
+  margin-right: 5.2em;
+  padding: 0; */
 }
 
 .lado-direito {
-  margin-left: 3%;
-  margin-right: 6%;
-  padding: 0;
+  margin-left: 6.5%;
+  margin-right: 13%;
+  /* margin-left: 5.2em;
+  margin-right: 11em;
+  padding: 0; */
 }
 
 .lado-direito p , #learning-right-aside {
@@ -108,10 +117,44 @@ main {
   background-color: rgb(191, 185, 173);
   margin: 0;
   padding: 0 3%;
-  width: 30.9%;
+  max-width: 30.9%;
+  min-width: 7em;
   vertical-align: top;
 }
 
 #learning-right-aside p {
   width: auto;
+}
+
+/* #table-section {
+  width: 100%;
+  margin-top: 3%;
+} */
+
+#topics-of-study-table {
+  margin: auto;
+}
+
+#topics-of-study-table caption {
+  padding: 10px 10px 20px;
+  /* line-height: 30px; */
+  /* font-size: medium; */
+  font-weight: 900;
+  color: rgb(59, 102, 100);
+}
+
+#topics-of-study-table thead {
+  background-color: rgb(191, 185, 173);
+  /* font-weight: 900;
+  font-size: medium; */
+  color: black;
+}
+
+#topics-of-study-table tbody {
+  /* line-height: 30px; */
+  text-align: justify;
+}
+
+#topics-of-study-table thead th , #topics-of-study-table tbody td {
+  padding: 5px 10px;
 }

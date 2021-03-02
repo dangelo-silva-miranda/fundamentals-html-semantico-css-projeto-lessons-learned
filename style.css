@@ -91,7 +91,8 @@ main {
 .lado-esquerdo {
   margin-left: 13%;
   margin-right: 6.5%;
-  /* /* margin-left: 11em;
+  
+  /* margin-left: 11em;
   margin-right: 5.2em;
   padding: 0; */
 }
@@ -99,6 +100,7 @@ main {
 .lado-direito {
   margin-left: 6.5%;
   margin-right: 13%;
+  
   /* margin-left: 5.2em;
   margin-right: 11em;
   padding: 0; */
@@ -137,22 +139,25 @@ main {
 
 #topics-of-study-table caption {
   padding: 10px 10px 20px;
-  /* line-height: 30px; */
-  /* font-size: medium; */
   font-weight: 900;
   color: rgb(59, 102, 100);
+
+  /* line-height: 30px;
+  font-size: medium; */
 }
 
 #topics-of-study-table thead {
   background-color: rgb(191, 185, 173);
+  color: black;
+
   /* font-weight: 900;
   font-size: medium; */
-  color: black;
 }
 
 #topics-of-study-table tbody {
-  /* line-height: 30px; */
   text-align: justify;
+
+  /* line-height: 30px; */
 }
 
 #topics-of-study-table thead th , #topics-of-study-table tbody td {
